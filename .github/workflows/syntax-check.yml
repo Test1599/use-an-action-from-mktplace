@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: awsrunner01
+    runs-on: awsubuntu01
 
     steps:
     - name: Check out the code
