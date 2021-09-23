@@ -1,11 +1,11 @@
-name: Python applications
+name: Python application
 
 on: [push]
 
 jobs:
   build:
 
-    runs-on: awsubuntu01
+    runs-on: self-hosted
 
     steps:
     - name: Check out the code
